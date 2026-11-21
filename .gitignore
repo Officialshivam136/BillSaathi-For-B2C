@@ -6,6 +6,9 @@
 backups/
 bill_photos/
 
+# Private planning notes (kept on this computer only)
+BILLSAATHI.md
+
 # Secrets
 .env
 *.key

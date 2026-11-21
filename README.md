@@ -38,6 +38,10 @@ First run: set the owner passcode, then fill in the business profile (name, GSTI
 - Bill scanning is a helper, not a guarantee: always compare the filled-in form with the photo. Printed bills in good light read well; handwritten, crumpled or blurred bills do not.
 - Not covered: e-invoicing and e-way bills (only needed above a high turnover, and they need government portal credentials), and a hosted multi-shop version (needs servers, HTTPS and security work that does not exist yet). Have your CA review the GST logic before relying on it.
 
+## Licence
+
+MIT. See `LICENSE`. The software is provided as is, with no warranty. It is a billing helper, not tax advice: have a Chartered Accountant review the GST logic and your exports before relying on them.
+
 ## Files
 
 `app.py` server and routes, `db.py` schema and logic, `templates.py` pages, `i18n.py` Hindi, `gst.py` tax rules, `exports.py`, `xlsx.py`, `tally.py`, `reconcile.py`, `bank.py`, `backups.py`, `quick.py`, `qr.py`, `words.py`, `gui.py` launcher.
